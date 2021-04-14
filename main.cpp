@@ -10,7 +10,7 @@ int main() {
     const KeyWords key_words = {"yangle", "rocks", "sucks", "all"};
 
     stringstream ss;
-    for(int i = 0; i < 5001; ++i)
+    for(int i = 0; i < 500001; ++i)
         ss << "rocks yangle rocks all\n"s;
 
     Stats stats;
